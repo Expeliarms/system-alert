@@ -36,33 +36,6 @@
   <title>shadow_monarch</title>
   <link rel="manifest" href="manifest.json">
 
-  <style>
-    /* Fix for Safari mobile viewport issues when returning from external links */
-    html, body {
-      height: 100%;
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      /* Use dvh (dynamic viewport height) for Safari, fallback to 100% */
-      min-height: 100dvh;
-      min-height: -webkit-fill-available;
-    }
-    
-    /* Prevent white space at bottom on iOS Safari */
-    html {
-      height: -webkit-fill-available;
-    }
-    
-    body {
-      min-height: -webkit-fill-available;
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-    }
-  </style>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
