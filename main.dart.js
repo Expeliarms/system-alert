@@ -35796,11 +35796,9 @@ s=3
 break
 case 5:s=13
 return A.l(b4.aA("String","tab_background_images",B.a1.bx(m)),$async$EA)
-case 13:s=l.a!==0?14:15
-break
-case 14:s=16
+case 13:s=14
 return A.l(b4.aA("String","tab_background_sync_hashes_"+b5,B.a1.bx(l)),$async$EA)
-case 16:case 15:q=k
+case 14:q=k
 s=1
 break
 case 1:return A.v(q,r)
